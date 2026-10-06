@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(250, 248, 215);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+    ol li::marker {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+p{
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ingredients{
+    color:green;
+
+  border: 2px solid #263d31;
+  padding: 15px;      
+  background-color: #e0f3de;
+  margin: 10px 0; 
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.section-title{
+    color:rgb(10, 93, 54);
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title{
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:600px){
+    img{
+        scale: 70%;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
